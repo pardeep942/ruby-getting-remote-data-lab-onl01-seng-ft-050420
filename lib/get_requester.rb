@@ -12,8 +12,7 @@ class GetRequester
     uri = URI.parse(@url)
     res = Net::HTTP.get(uri)
    
-    
-  end
+    end
   
   def parse_json
     uri = URI(url)
